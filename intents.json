@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?"]
+    },
+
+    {
+      "tag": "product",
+      "patterns": ["What products do you sell?", "Tell me about your products", "Products"],
+      "responses": ["We sell electronics, clothing, and accessories."]
+    },
+
+    {
+      "tag": "delivery",
+      "patterns": ["Delivery time", "When will my order arrive", "Shipping time"],
+      "responses": ["Delivery usually takes 3-5 business days."]
+    },
+
+    {
+      "tag": "refund",
+      "patterns": ["Refund policy", "Can I return product", "Return policy"],
+      "responses": ["You can return products within 7 days."]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": ["Contact details", "Customer care number", "Support"],
+      "responses": ["You can contact us at support@company.com"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you"],
+      "responses": ["Goodbye! Have a nice day."]
+    }
+  ]
+}
